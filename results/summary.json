@@ -1,0 +1,34 @@
+{
+  "n_listings": {
+    "berlin": 8332,
+    "nyc": 20890,
+    "paris": 46000
+  },
+  "n_train": {
+    "nyc": 16712,
+    "paris": 36800,
+    "berlin": 6665
+  },
+  "n_test": {
+    "nyc": 4178,
+    "paris": 9200,
+    "berlin": 1667
+  },
+  "final_model": {
+    "nyc": {
+      "R2_log": 0.847,
+      "MAE_usd": 50.627,
+      "MedAPE_%": 14.513
+    },
+    "paris": {
+      "R2_log": 0.835,
+      "MAE_usd": 57.16,
+      "MedAPE_%": 15.906
+    },
+    "berlin": {
+      "R2_log": 0.895,
+      "MAE_usd": 39.004,
+      "MedAPE_%": 14.959
+    }
+  }
+}
